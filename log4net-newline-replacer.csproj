@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Log4netNewlineReplacer</RootNamespace>
+    <Version>0.1.0</Version>
+    <PackageId>Log4netNewlineReplacer</PackageId>
+    <Title>Log4netNewlineReplacer</Title>
+    <Description>Custom log4net pattern layout that replaces new-line characters before sending log messages to the appenders.</Description>
+    <Authors>rubms;mediatechsolutions</Authors>
+    <Copyright>Copyright R.Franco Technologies 2019</Copyright>
+    <license>LGPL-3.0-only</license>
+    <PackageProjectUrl>https://github.com/rfrancotechnologies/log4net-newline-replacer</PackageProjectUrl>
+    <PackageTags>log4net newline new-line new line replace</PackageTags>
+    <IncludeSource>false</IncludeSource>
+    <PackageReleaseNotes>
+      First release.
+    </PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="log4net" Version="2.0.8" />
+  </ItemGroup>
+
+</Project>
